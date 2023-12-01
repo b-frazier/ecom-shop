@@ -1,0 +1,40 @@
+const products = [
+  {
+    _id: '1',
+    name: 'Airpods',
+    image: '/images/airpods.jpg',
+    description: 'Bluetooth headphones by Apple',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 99.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    _id: '2',
+    name: 'Mouse',
+    image: '/images/mouse.jpg',
+    description: 'Bluetooth headphones by Apple',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 9.99,
+    countInStock: 15,
+    rating: 5,
+    numReviews: 7,
+  },
+  {
+    _id: '3',
+    name: 'Phone',
+    image: '/images/phone.jpg',
+    description: 'Bluetooth headphones by Apple',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 399.99,
+    countInStock: 6,
+    rating: 3.5,
+    numReviews: 2,
+  },
+];
+
+export default products;
